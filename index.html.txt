@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The VA Plug</title>
+</head>
+<body>
+  <!-- Logo and Header -->
+  <img src="The va plug.png" alt="The VA Plug Logo" width="100" height="100">
+  <h3>THE VA PLUG</h3>
+  <hr>
+
+  <!-- About -->
+  <p>
+    The VA Plug was founded in the year 2025, with the <b>goal</b> of helping busy business owners manage their business efficiently, smartly, and swiftly. We are constantly innovating and striving for improvement.
+    <br><b>We look forward to taking your orders.</b>
+  </p>
+  
+  <!-- Services -->
+  <h4>OUR SERVICES:</h4>
+  <ol>
+    <li>WhatsApp chats handling</li>
+    <li>Customer follow-up</li>
+    <li>Flyer and post design</li>
+    <li>Data entry</li>
+    <li>Social Media Management</li>
+    <li>Web designing</li>
+  </ol>
+
+  <!-- Why Choose Us -->
+  <h4>Why Choose Us?</h4>
+  <ul>
+    <li>We have expert professionals with proven track records</li>
+    <li>Covering both technical and fundamental analysis</li>
+  </ul>
+
+  <!-- Visual Marketing Table -->
+  <h4>Visual Marketing</h4>
+  <table border="2" cellspacing="0" cellpadding="5">
+    <tr>
+      <th>Items</th>
+      <th>Description</th>
+      <th>Prices</th>
+    </tr>
+    <tr>
+      <td>WhatsApp chats handling</td>
+      <td>For active and effective WhatsApp customer chat</td>
+      <td>₦7,000 per week</td>
+    </tr>
+    <tr>
+      <td>Customer follow-up</td>
+      <td>To increase customer-vendor relationship</td>
+      <td>₦14,000 per week</td>
+    </tr>
+    <tr>
+      <td>Flyer and post design</td>
+      <td>To increase Social Media Insights</td>
+      <td>₦20,000 per week</td>
+    </tr>
+  </table>
+
+  <!-- Contact -->
+  <br>
+  <p>For more enquiries <a href="#">Click here</a></p>
+  <p><i>Thank you for choosing us</i></p>
+  <p>No copyright <b>The VA Plug™</b></p>
+  <p>Coded by <a href="#">Nnaemeka_domi</a></p>
+</body>
+</html>
+<!-- Add this just before the </body> closing tag -->
+
+<h4>Add a Service</h4>
+<form action="#" method="post">
+  <label for="service">Choose a service:</label><br><br>
+  <select id="service" name="service" style="padding: 10px; font-size: 16px; width: 250px;">
+    <option value="whatsapp">WhatsApp chats handling</option>
+    <option value="followup">Customer follow-up</option>
+    <option value="design">Flyer and post design</option>
+    <option value="dataentry">Data entry</option>
+    <option value="smm">Social Media Management</option>
+    <option value="webdesign">Web designing</option>
+  </select><br><br>
+
+  <button type="submit" style="
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;">
+    ➕ Add Service
+  </button>
+</form>
