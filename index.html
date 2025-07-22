@@ -1,94 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The VA Plug</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: navy;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: navy;
+      margin-bottom: 20px;
+    }
+    .services, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .cta {
+      background-color: navy;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .cta a {
+      background-color: white;
+      color: navy;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #eee;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
-  <!-- Logo and Header -->
-  <img src="The va plug.png" alt="The VA Plug Logo" width="100" height="100">
-  <h3>THE VA PLUG</h3>
-  <hr>
 
-  <!-- About -->
-  <p>
-    The VA Plug was founded in the year 2025, with the <b>goal</b> of helping busy business owners manage their business efficiently, smartly, and swiftly. We are constantly innovating and striving for improvement.
-    <br><b>We look forward to taking your orders.</b>
-  </p>
-  
-  <!-- Services -->
-  <h4>OUR SERVICES:</h4>
-  <ol>
-    <li>WhatsApp chats handling</li>
-    <li>Customer follow-up</li>
-    <li>Flyer and post design</li>
-    <li>Data entry</li>
-    <li>Social Media Management</li>
-    <li>Web designing</li>
-  </ol>
+  <header>
+    <h1>The VA Plug</h1>
+    <p>Your Trusted Virtual Assistant Plug — We Get It Done, So You Don’t Have To.</p>
+  </header>
 
-  <!-- Why Choose Us -->
-  <h4>Why Choose Us?</h4>
-  <ul>
-    <li>We have expert professionals with proven track records</li>
-    <li>Covering both technical and fundamental analysis</li>
-  </ul>
+  <section class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">✅ WhatsApp Chat Handling</div>
+      <div class="card">✅ Customer Follow-Up</div>
+      <div class="card">✅ Flyer & Post Design</div>
+      <div class="card">✅ Social Media Management</div>
+      <div class="card">✅ Web Designing</div>
+      <div class="card">✅ Data Entry</div>
+    </div>
+  </section>
 
-  <!-- Visual Marketing Table -->
-  <h4>Visual Marketing</h4>
-  <table border="2" cellspacing="0" cellpadding="5">
-    <tr>
-      <th>Items</th>
-      <th>Description</th>
-      <th>Prices</th>
-    </tr>
-    <tr>
-      <td>WhatsApp chats handling</td>
-      <td>For active and effective WhatsApp customer chat</td>
-      <td>₦7,000 per week</td>
-    </tr>
-    <tr>
-      <td>Customer follow-up</td>
-      <td>To increase customer-vendor relationship</td>
-      <td>₦14,000 per week</td>
-    </tr>
-    <tr>
-      <td>Flyer and post design</td>
-      <td>To increase Social Media Insights</td>
-      <td>₦20,000 per week</td>
-    </tr>
-  </table>
+  <section class="section">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials">
+      <div class="card">"VA Plug made my business smoother. They're efficient and proactive!"</div>
+      <div class="card">"From content to customer service, I just hand it over and relax!"</div>
+    </div>
+  </section>
 
-  <!-- Contact -->
-  <br>
-  <p>For more enquiries <a href="#">Click here</a></p>
-  <p><i>Thank you for choosing us</i></p>
-  <p>No copyright <b>The VA Plug™</b></p>
-  <p>Coded by <a href="#">Nnaemeka_domi</a></p>
+  <section class="cta">
+    <h2>Ready to Work with Us?</h2>
+    <p>Click below to chat directly with us on WhatsApp.</p>
+    <a href="https://wa.me/2349138211960" target="_blank">Chat on WhatsApp</a>
+  </section>
+
+  <footer>
+    &copy; 2025 The VA Plug. All rights reserved.
+  </footer>
+
 </body>
 </html>
-<!-- Add this just before the </body> closing tag -->
 
-<h4>Add a Service</h4>
-<form action="#" method="post">
-  <label for="service">Choose a service:</label><br><br>
-  <select id="service" name="service" style="padding: 10px; font-size: 16px; width: 250px;">
-    <option value="whatsapp">WhatsApp chats handling</option>
-    <option value="followup">Customer follow-up</option>
-    <option value="design">Flyer and post design</option>
-    <option value="dataentry">Data entry</option>
-    <option value="smm">Social Media Management</option>
-    <option value="webdesign">Web designing</option>
-  </select><br><br>
-
-  <button type="submit" style="
-    padding: 15px 30px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;">
-    ➕ Add Service
-  </button>
-</form>
